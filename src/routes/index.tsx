@@ -3,6 +3,7 @@ import { Route, Routes } from "react-router-dom";
 
 const routes = [
   { path: "/", component: lazy(() => import("pages/Reception")) },
+  { path: "/map", component: lazy(() => import("pages/Map")) },
 ];
 
 function ComposeRoutes() {
