@@ -3,6 +3,9 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {},
+    fontFamily: {
+      vcr: ["VCR OSD Mono", "sans-serif"],
+    },
   },
   plugins: [],
 };
