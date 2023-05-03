@@ -4,10 +4,6 @@ module.exports = {
   theme: {
     backgroundImage: {
       "reception-btn-bg": "url('assets/Reception/btn-bg.png')",
-      "map-btn-down-bg": "url('assets/Map/btn-down-bg.png')",
-      "map-btn-down-bg-hover": "url('assets/Map/btn-down-bg-hover.png')",
-      "map-btn-up-bg": "url('assets/Map/btn-up-bg.png')",
-      "map-btn-up-bg-hover": "url('assets/Map/btn-up-bg-hover.png')",
       "connectWallet-btn-bg": "url('assets/Header/connectWalletBtn-bg.png')",
       "connectWallet-btn-bg-hover":
         "url('assets/Header/connectWalletBtn-bg-hover.png')",
@@ -20,7 +16,7 @@ module.exports = {
       "discord-btn-bg-hover": "url('assets/Footer/discord-btn-hover.png')",
     },
     colors: {
-      "color-1": "#675335B2",
+      "color-1": "#675335E2",
       "color-2": "#BDBF50",
       "color-3": "#A66E1A",
       "color-4": "#B68EE9",
