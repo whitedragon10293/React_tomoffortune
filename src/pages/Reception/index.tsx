@@ -5,7 +5,7 @@ import Background from "assets/Reception/background.png";
 const Reception = () => {
   const handleClick = () => {};
   return (
-    <div className="w-screen h-screen flex justify-center items-center">
+    <div className="w-screen h-screen flex justify-center items-center relative">
       <img
         src={Background}
         alt="background"

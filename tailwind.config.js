@@ -4,6 +4,9 @@ module.exports = {
   theme: {
     backgroundImage: {
       "reception-btn-bg": "url('assets/Reception/btn-bg.png')",
+      "connectWallet-btn-bg": "url('assets/Header/connectWalletBtn.png')",
+      "connectWallet-btn-bg-hover":
+        "url('assets/Header/connectWalletBtn-hover.png')",
     },
     colors: {
       "color-1": "#675335B2",
