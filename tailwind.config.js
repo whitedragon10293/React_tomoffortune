@@ -16,11 +16,12 @@ module.exports = {
       "discord-btn-bg-hover": "url('assets/Footer/discord-btn-hover.png')",
     },
     colors: {
-      "color-1": "#675335B2",
+      "color-1": "#675335E2",
       "color-2": "#BDBF50",
       "color-3": "#A66E1A",
       "color-4": "#B68EE9",
       "color-5": "#8642DD",
+      "color-6": "#FEE692",
     },
     extend: {},
     // fontFamily: {

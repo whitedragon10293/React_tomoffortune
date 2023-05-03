@@ -4,7 +4,7 @@ import PageMenu from "./partials/PageMenu";
 
 const Header = () => {
   return (
-    <header className="flex justify-between items-start w-full absolute top-0 p-5 z-10">
+    <header className="container flex justify-between items-start w-full absolute top-0 p-5 z-10">
       <PageMenu />
       <ConnectWalletButton />
     </header>
