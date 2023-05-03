@@ -1,7 +1,15 @@
 import React from "react";
+
+import { BrowserRouter } from "react-router-dom";
+import Routes from "routes";
+
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline font-vcr">Tomb of Fortune</h1>
+    <div className="min-h-screen flex flex-col items-center justify-center">
+      <BrowserRouter>
+        <Routes />
+      </BrowserRouter>
+    </div>
   );
 }
 
