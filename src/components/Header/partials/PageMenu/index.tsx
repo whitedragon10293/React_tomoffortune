@@ -38,7 +38,7 @@ const PageMenu: React.FC = () => {
       <button
         className={`${
           showMenu ? "bg-menu-btn-bg-hover" : "bg-menu-btn-bg"
-        } hover:bg-menu-btn-bg-hover bg-cover bg-no-repeat rounded-md w-32 h-24`}
+        } hover:bg-menu-btn-bg-hover bg-contain bg-no-repeat rounded-md w-16 h-16`}
         onClick={handleClick}
       ></button>
       {showMenu && (
