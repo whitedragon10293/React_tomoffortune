@@ -8,7 +8,7 @@ const Reception = () => {
       <img
         src={Background}
         alt="background"
-        className="absolute top-0 left-0 w-full h-full"
+        className="absolute top-0 left-0 w-screen h-screen"
       ></img>
       <div className="container w-full h-full flex justify-center items-center relative">
         <div className="relative flex flex-col md:flex-row justify-center items-center mt-72 w-full">
