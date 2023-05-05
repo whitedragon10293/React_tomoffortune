@@ -6,6 +6,7 @@ const routes = [
   { path: "/map", component: lazy(() => import("pages/Map")) },
   { path: "/mint", component: lazy(() => import("pages/Mint")) },
   { path: "/oasis", component: lazy(() => import("pages/Oasis")) },
+  { path: "/mummycity", component: lazy(() => import("pages/MummyCity")) },
   { path: "*", component: lazy(() => import("pages/NotFound")) },
 ];
 
