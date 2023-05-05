@@ -15,7 +15,6 @@ import MapImage from "assets/Map/Map.png";
 import Background from "assets/Map/background.png";
 
 const Map = () => {
-  const handleClick = () => {};
   return (
     <>
       <img
@@ -29,19 +28,19 @@ const Map = () => {
           <ImageButton
             normal={OasisBtn}
             hover={OasisBtnHover}
-            onClick={handleClick}
+            url="/oasis"
             position="top-[35%] left-[47%]"
           />
           <ImageButton
             normal={UnknownBtn}
             hover={UnknownBtnHover}
-            onClick={handleClick}
+            url="/unknown"
             position="top-[62%] left-[3%]"
           />
           <ImageButton
             normal={TombsBtn}
             hover={TombsBtnHover}
-            onClick={handleClick}
+            url="/tombs"
             position="top-[65%] left-[68%]"
           />
         </div>

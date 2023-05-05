@@ -1,13 +1,15 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 interface props {
   normal: string;
   hover: string;
   position: string;
-  onClick: () => void;
+  url: string;
 }
 
-const ImageButton: React.FC<props> = ({ normal, hover, position, onClick }) => {
+const ImageButton: React.FC<props> = ({ normal, hover, position, url }) => {
+  const navigate = useNavigate();
   const [isHovered, setIsHovered] = useState<boolean>(false);
   const handleMouseOver = () => {
     setIsHovered(true);
@@ -21,7 +23,7 @@ const ImageButton: React.FC<props> = ({ normal, hover, position, onClick }) => {
       className={`absolute ${position} w-1/4`}
       src={!isHovered ? normal : hover}
       alt="ButtonImage"
-      onClick={onClick}
+      onClick={() => navigate(url)}
       onMouseOver={handleMouseOver}
       onMouseOut={handleMouseOut}
     />
