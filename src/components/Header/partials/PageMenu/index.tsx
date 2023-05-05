@@ -10,7 +10,6 @@ const MenuList: MenuItem[] = [
   { title: "Mint", link: "/mint" },
   { title: "Oasis", link: "/oasis" },
   { title: "Shop", link: "/" },
-  { title: "Wiki", link: "/" },
 ];
 
 const PageMenu: React.FC = () => {
@@ -55,8 +54,16 @@ const PageMenu: React.FC = () => {
               </a>
             </p>
           ))}
+          <p>
+            <span
+              className="text-color-2 hover:text-color-3"
+              onClick={() => window.open("https://docs.tombsoffortune.com/")}
+            >
+              Wiki
+            </span>
+          </p>
           <p className="absolute bottom-10">
-            <a href="/" className="text-color-4 hover:text-color-5">
+            <a href="/mummycity" className="text-color-4 hover:text-color-5">
               Switch Side
             </a>
           </p>
