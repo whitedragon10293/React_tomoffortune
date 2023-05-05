@@ -21,32 +21,32 @@ const Mint = () => {
         className="absolute top-0 left-0 w-full h-full"
       ></img>
       <div
-        className="container bg-mint-background bg-color-8 w-3/4 h-3/4 z-10 px-20 py-5 flex flex-col justify-center items-center"
+        className="container bg-mint-background bg-color-8 w-3/4 h-3/4 z-10 p-12 flex flex-col justify-between"
         style={{ backgroundSize: "100% 100%" }}
       >
-        <div className="flex justify-between items-center py-5 w-full">
-          <div className="border-8 border-green w-1/4 p-2 bg-color-10">
-            <img src={Explorer} alt="explorer" />
+        <div className="p-5">
+          <div className="flex justify-between items-center">
+            <div className="border-8 border-green w-1/5 p-2 bg-color-10 flex justify-center">
+              <img src={Explorer} alt="explorer" />
+            </div>
+            <div className="border-8 border-orange w-1/5 p-2 bg-color-10 flex justify-center">
+              <img src={Mummy} alt="mummy" />
+            </div>
+            <div className="border-8 border-purple w-1/5 p-2 bg-color-10 flex justify-center">
+              <img src={Pharaoh} alt="pharaoh" />
+            </div>
           </div>
-          <div className="border-8 border-orange w-1/4 p-2 bg-color-10">
-            <img src={Mummy} alt="mummy" />
-          </div>
-          <div className="border-8 border-purple w-1/4 p-2 bg-color-10">
-            <img src={Pharaoh} alt="pharaoh" />
-          </div>
-        </div>
-        <div className="text-xs sm:text-sm md:text-lg">
-          <p className="text-color-9">
+          <div className="text-sm sm:text-base md:text-lg text-color-9">
             Explorer risking their lives to get{" "}
             <span className="text-color-7">$TOMBS</span> while mummies are
             protecting it, in order to offer it to the pharaoh. Will the
             explorer succeed to escape with the stolen{" "}
             <span className="text-color-7">$TOMBS</span> or will the mummies
             will catch them to do offerings to the pharaoh ?
-          </p>
+          </div>
         </div>
-        <div className="flex w-full">
-          <div className="flex w-1/5">
+        <div className="flex" style={{ height: "inherit" }}>
+          <div className="flex w-1/6">
             <div
               className="bg-mint-border w-20 h-20 flex items-center justify-around text-color-9 text-sm sm:text-base md:text-xl"
               style={{ backgroundSize: "100% 100%" }}
@@ -66,8 +66,8 @@ const Mint = () => {
               ></div>
             </div>
           </div>
-          <div className="w-4/5">
-            <div className="flex justify-around items-start">
+          <div className="w-5/6 relative flex flex-col items-center">
+            <div className="flex justify-around items-start w-full">
               <div className="flex justify-between items-center">
                 <span className="text-color-9 text-sm sm:text-base md:text-xl">
                   MINT NOW
@@ -88,6 +88,10 @@ const Mint = () => {
                 </span>
               </div>
             </div>
+            <div
+              className="bg-mint-progress-bar-bg w-2/3 h-4/5 absolute bottom-0"
+              style={{ backgroundSize: "100% 100%" }}
+            ></div>
           </div>
         </div>
       </div>

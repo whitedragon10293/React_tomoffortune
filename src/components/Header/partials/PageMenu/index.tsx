@@ -44,7 +44,7 @@ const PageMenu: React.FC = () => {
       ></button>
       {showMenu && (
         <div
-          className="bg-color-1 bg-page-menu-bg w-60 h-72 px-10 py-6 text-2xl"
+          className="bg-color-1 bg-page-menu-bg w-60 h-72 px-10 py-6 text-2xl rounded-xl"
           style={{ backgroundSize: "100% 100%" }}
           ref={menuRef}
         >
