@@ -18,8 +18,8 @@ module.exports = {
       "mint-border": "url('assets/Mint/border.svg')",
       "mint-plus": "url('assets/Mint/plus.svg')",
       "mint-minus": "url('assets/Mint/minus.svg')",
-      "mint-mint-btn-bg": "url('assets/Mint/mint-btn.png')",
-      "mint-buy-btn-bg": "url('assets/Mint/buy-btn.png')",
+      "mint-mint-btn": "url('assets/Mint/mint-btn.png')",
+      "mint-buy-btn": "url('assets/Mint/buy-btn.png')",
       "mint-progress-bar-bg": "url('assets/Mint/Progressbar.png')",
     },
     borderColor: {

@@ -25,31 +25,31 @@ const Oasis = () => {
         className="absolute top-0 left-0 w-full h-full"
       ></img>
       <div className="container">
-        <div className="w-2/3 m-auto relative">
+        <div className="w-full lg:w-2/3 m-auto relative">
           <img src={MapImage} alt="map" className="w-full h-full" />
           <ImageButton
             normal={MarketBtn}
             hover={MarketBtnHover}
             url="/mint"
-            customStyle="top-[3%] left-[3%] w-1/5"
+            customStyle="top-[4%] left-[2%] w-1/5"
           />
           <ImageButton
             normal={BoardBtn}
             hover={BoardBtnHover}
             url="/oasis"
-            customStyle="top-[3%] right-[3%] w-1/5"
+            customStyle="top-[3%] right-[2%] w-1/5"
           />
           <ImageButton
             normal={ExplorationBtn}
             hover={ExplorationBtnHover}
             url="/map"
-            customStyle="top-[50%] right-[3%] w-1/5"
+            customStyle="top-[50%] right-[2%] w-1/5"
           />
           <ImageButton
             normal={GuideBtn}
             hover={GuideBtnHover}
             url="/oasis"
-            customStyle="bottom-[3%] right-[3%] w-1/5"
+            customStyle="bottom-[4%] right-[2%] w-1/5"
           />
         </div>
       </div>
