@@ -2,7 +2,7 @@ import React from "react";
 import ImageButton from "pages/Map/partials/ImageButton";
 
 import MapImage from "assets/Oasis/Map.png";
-import Background from "assets/Map/background.png";
+import Background from "assets/Oasis/Background.png";
 
 import BoardBtn from "assets/Oasis/Board.png";
 import BoardBtnHover from "assets/Oasis/Board-hover.png";
