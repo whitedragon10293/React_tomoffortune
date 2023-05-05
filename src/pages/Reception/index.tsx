@@ -3,7 +3,6 @@ import ImageButton from "./partials/ImageButton";
 import Background from "assets/Reception/background.png";
 
 const Reception = () => {
-  const handleClick = () => {};
   return (
     <>
       <img
@@ -13,8 +12,8 @@ const Reception = () => {
       ></img>
       <div className="container w-full h-full flex justify-center items-center relative">
         <div className="relative flex flex-col md:flex-row justify-center items-center mt-72 w-full">
-          <ImageButton content="play" onClick={handleClick}></ImageButton>
-          <ImageButton content="mint nft" onClick={handleClick}></ImageButton>
+          <ImageButton content="play" url="/map"></ImageButton>
+          <ImageButton content="mint nft" url="/mint"></ImageButton>
         </div>
       </div>
     </>
