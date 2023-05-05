@@ -4,11 +4,11 @@ import { useNavigate } from "react-router-dom";
 interface props {
   normal: string;
   hover: string;
-  position: string;
+  customStyle: string;
   url: string;
 }
 
-const ImageButton: React.FC<props> = ({ normal, hover, position, url }) => {
+const ImageButton: React.FC<props> = ({ normal, hover, customStyle, url }) => {
   const navigate = useNavigate();
   const [isHovered, setIsHovered] = useState<boolean>(false);
   const handleMouseOver = () => {
@@ -20,7 +20,7 @@ const ImageButton: React.FC<props> = ({ normal, hover, position, url }) => {
   };
   return (
     <img
-      className={`absolute ${position} w-1/4`}
+      className={`absolute ${customStyle}`}
       src={!isHovered ? normal : hover}
       alt="ButtonImage"
       onClick={() => navigate(url)}

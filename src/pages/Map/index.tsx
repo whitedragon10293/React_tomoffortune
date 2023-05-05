@@ -29,19 +29,19 @@ const Map = () => {
             normal={OasisBtn}
             hover={OasisBtnHover}
             url="/oasis"
-            position="top-[35%] left-[47%]"
+            customStyle="top-[35%] left-[47%] w-1/4"
           />
           <ImageButton
             normal={UnknownBtn}
             hover={UnknownBtnHover}
             url="/unknown"
-            position="top-[62%] left-[3%]"
+            customStyle="top-[62%] left-[3%] w-1/4"
           />
           <ImageButton
             normal={TombsBtn}
             hover={TombsBtnHover}
             url="/tombs"
-            position="top-[65%] left-[68%]"
+            customStyle="top-[65%] left-[68%] w-1/4"
           />
         </div>
       </div>
