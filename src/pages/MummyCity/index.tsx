@@ -19,7 +19,7 @@ const MummyCity = () => {
         className="absolute top-0 left-0 w-full h-full"
       ></img>
       <div className="container">
-        <div className="w-2/3 m-auto relative">
+        <div className="w-full lg:w-2/3 m-auto relative">
           <img src={MapImage} alt="map" className="w-full h-full" />
           <ImageButton
             normal={ExitBtn}
