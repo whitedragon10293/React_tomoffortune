@@ -6,10 +6,12 @@ const Footer = () => {
       <button
         className="bg-twitter-btn-bg hover:bg-twitter-btn-bg-hover w-14 h-12"
         style={{ backgroundSize: "100% 100%" }}
+        onClick={() => window.open("https://twitter.com/TombsOfFortune")}
       />
       <button
         className="bg-discord-btn-bg hover:bg-discord-btn-bg-hover w-14 h-12 ml-5"
         style={{ backgroundSize: "100% 100%" }}
+        onClick={() => window.open("https://discord.com/invite/Rg4QkDUwcJ")}
       />
     </footer>
   );
