@@ -17,7 +17,7 @@ const PageMenu: React.FC = () => {
   const [showMenu, setShowMenu] = useState(false);
 
   const handleClick = () => {
-    setShowMenu(!showMenu);
+    setShowMenu((prev) => !prev);
   };
 
   useEffect(() => {
@@ -34,18 +34,17 @@ const PageMenu: React.FC = () => {
   }, []);
 
   return (
-    <div>
+    <div className="relative w-16 h-16" ref={menuRef}>
       <button
         className={`${
           showMenu ? "bg-menu-btn-bg-hover" : "bg-menu-btn-bg"
-        } hover:bg-menu-btn-bg-hover bg-contain bg-no-repeat rounded-md w-16 h-16`}
+        } hover:bg-menu-btn-bg-hover bg-contain bg-no-repeat rounded-md w-full h-full`}
         onClick={handleClick}
       ></button>
       {showMenu && (
         <div
-          className="bg-color-1 bg-page-menu-bg w-60 h-72 px-10 py-6 text-2xl rounded-xl"
+          className="bg-color-1 bg-page-menu-bg w-60 h-72 px-10 py-6 text-lg lg:text-xl rounded-xl absolute top-[100%]"
           style={{ backgroundSize: "100% 100%" }}
-          ref={menuRef}
         >
           {MenuList.map((item: MenuItem, idx: number) => (
             <p key={"menuBar" + idx}>

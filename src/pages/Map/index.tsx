@@ -23,7 +23,7 @@ const Map = () => {
         className="absolute top-0 left-0 w-full h-full"
       ></img>
       <div className="container">
-        <div className="w-[45%] m-auto relative">
+        <div className="w-full lg:w-1/2 xl:w-[40%] m-auto relative">
           <img src={MapImage} alt="map" className="w-full h-full" />
           <ImageButton
             normal={OasisBtn}
