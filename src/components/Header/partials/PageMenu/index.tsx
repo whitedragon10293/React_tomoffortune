@@ -8,7 +8,7 @@ interface MenuItem {
 
 const MenuList: MenuItem[] = [
   { title: "Map", link: "/map" },
-  { title: "Mint", link: "/mint" },
+  // { title: "Mint", link: "/mint" },
   { title: "Oasis", link: "/oasis" },
   { title: "Shop", link: "/" },
 ];
