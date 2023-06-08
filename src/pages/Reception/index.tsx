@@ -19,7 +19,10 @@ const Reception = () => {
       <div className="container w-full h-full flex justify-center items-center relative">
         <div className="relative flex flex-col md:flex-row justify-center items-center mt-72 w-full">
           <ImageButton content="play" url="/map"></ImageButton>
-          <ImageButton content="mint nft" url="/mint"></ImageButton>
+          <ImageButton
+            content="mint nft"
+            to="https://tomb-of-fortune-nft-mint.vercel.app/"
+          ></ImageButton>
         </div>
       </div>
     </>
