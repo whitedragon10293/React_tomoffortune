@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from "react";
+import { Link } from "react-router-dom";
 
 interface MenuItem {
   title: string;
@@ -48,9 +49,9 @@ const PageMenu: React.FC = () => {
         >
           {MenuList.map((item: MenuItem, idx: number) => (
             <p key={"menuBar" + idx}>
-              <a href={item.link} className="text-color-2 hover:text-color-3">
+              <Link to={item.link} className="text-color-2 hover:text-color-3">
                 {item.title}
-              </a>
+              </Link>
             </p>
           ))}
           <p>
@@ -62,9 +63,9 @@ const PageMenu: React.FC = () => {
             </span>
           </p>
           <p className="absolute bottom-10">
-            <a href="/mummycity" className="text-color-4 hover:text-color-5">
+            <Link to="/mummycity" className="text-color-4 hover:text-color-5">
               Switch Side
-            </a>
+            </Link>
           </p>
         </div>
       )}
