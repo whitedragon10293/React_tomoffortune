@@ -30,7 +30,7 @@ const Oasis = () => {
           <ImageButton
             normal={MarketBtn}
             hover={MarketBtnHover}
-            url="/mint"
+            url="/"
             customStyle="top-[4%] left-[2%] w-1/5"
           />
           <ImageButton
