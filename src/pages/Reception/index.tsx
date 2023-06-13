@@ -21,7 +21,7 @@ const Reception = () => {
           <ImageButton content="play" url="/map"></ImageButton>
           <ImageButton
             content="mint nft"
-            to="https://tomb-of-fortune-nft-mint.vercel.app/"
+            to="https://beta.tombsoffortune.com/"
           ></ImageButton>
         </div>
       </div>
